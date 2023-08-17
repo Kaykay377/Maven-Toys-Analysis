@@ -48,14 +48,4 @@ JOIN products p ON s.Product_ID = p.Product_ID
 JOIN stores AS st ON s.store_id = st.store_id
 JOIN inventory i ON s.store_id = i.store_id AND s.product_id = i.product_id
 WHERE i.stock_on_hand = 0;
-
-
-
-
-
-
-
-
-
-
 ```
